@@ -1,0 +1,15 @@
+Teste de Python:
+Nós primeiro instalamos o virtualenv em nossas maquinas, para trazer um ambiente virtual de python, e depois instalamos os webdrivers do selemium para python. Com isso, podemos rodar o codigo de python que precisa ser implementado.
+
+Primeiro, o codigo entra no site "https://www.hankeds.com.br/prova/login.html", e espera 2 segundos para uma resposta. Ele dai cria uma definição para digitar lento letras, com delay de 0,25 segundos. Ele tenta localizar um elemento na pagina por id chamado username, outro elemento chamado password e um elemento por XPATH, um botão chamado entrar.
+
+Ele digita no elemento username "admin", espera 1 segundo, depois digitar no elemento password "admin123456", espera 1 segundo, e depois clica no elemento botão, e espera 4 segundos. Se o programa cheguar em um "destino.html", ele mostra no console o teste como um sucesso, senão, fala que o teste falhou, espera 5 segundos, e depois mostra o erro. Daí, o programa finaliza.
+
+Teste de Node.js:
+Nós primeiro instalamos o selenium do node.js com npm init -y e npm install selenium-webdriver chromedriver mocha fs
+Depois, implementamos o codigo do script em um arquivo test.js, e colocamos para testar esse arquivo no package.json na sessão de scripts
+Consiguimos daí rodar o script implementado.
+
+Primeiro, o codigo entra no site https://www.hankeds.com.br/prova/login2.html e procura pelas tabas de texto de usuário e senha, e o botão de entrar com esse usuário.
+
+Ele coloca na taba de texto usuário "admin", espera 0,25 segundos, espera 1 segundo, e na taba de texto senha "admin123456", espera 0,25 segundos e espera 1 segundo e clica no botão entrar, e espera 4 segundos. Se o programa cheguar em um "destino.html", ele mostra no console o teste como um sucesso, senão, fala que o teste falhou, espera 5 segundos, e depois mostra o erro. Daí, o programa finaliza.
